@@ -22,3 +22,5 @@ https://dealunoparaaluno.wordpress.com/
 https://www.ime.usp.br/~mms/
 
 http://www.facom.ufu.br/~backes/wordpress/
+
+Algoritmos e funções recursivas -> https://www.ime.usp.br/~mms/mac1222s2013/12%20-%20algoritmos%20e%20funcoes%20recursivas.pdf

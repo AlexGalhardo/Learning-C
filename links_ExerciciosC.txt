@@ -26,3 +26,11 @@ http://www.facom.ufu.br/~backes/wordpress/
 Algoritmos e funções recursivas
 -> https://www.ime.usp.br/~mms/mac1222s2013/12%20-%20algoritmos%20e%20funcoes%20recursivas.pdf
 -> https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html
+
+http://www.inf.unioeste.br/~guilherme/cursos/c.pdf
+
+https://www.cenapad.unicamp.br/servicos/treinamentos/apostilas/apostila_C.pdf
+
+http://www.cplusplus.com/reference/cstdio/printf/
+
+http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm

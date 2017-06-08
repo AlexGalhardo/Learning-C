@@ -21,3 +21,34 @@ int main(int argc, char* argv[]){
 	
  	return 0;
 }
+
+// -- outra modo de se fazer, encontrado no google -- //
+#include <stdio.h>
+#include <stdlib.h>
+  
+int main() {
+	
+ 	int numero; // Número de entrada
+ 	int r; // Resultado do deslocamento
+ 	int i; // Contador
+  
+	scanf("%d", &numero);
+  
+ 	// Utiliza um número de 8 bits como base para a conversão.
+ 	for(i = 7; i >= 0; i--) {
+    	r = numero >> i;
+         
+    // Por meio do "e" lógico ele compara se o valor 
+    // na posição mais à direita é 1 ou 0 
+    // e imprime na tela até reproduzir o número binário.
+    	if(r & 1) {
+        	printf("1");
+    	} else {
+        	printf("0");
+    	}
+	}
+  
+ 	printf("\n");
+  
+ return 0;
+}

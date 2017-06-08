@@ -36,3 +36,5 @@ http://www.cplusplus.com/reference/cstdio/printf/
 http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm
 
 http://www.devfuria.com.br/
+
+https://rafaelomarques.wordpress.com/tag/c-3/

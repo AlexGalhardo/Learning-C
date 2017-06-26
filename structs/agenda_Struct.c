@@ -1,5 +1,4 @@
 /*
-Agenda
 Disciplina: SSC0502 - Laboratório de Introdução a Computação I
 Prazo de Entrega: 26/06/2017 23:55:55 Aberto
 
@@ -37,109 +36,136 @@ Finaliza  entrega  no run.codes
 Inicio  das  Ferias ....=D
 13/07/2015  - 08:15:00
 Inicio  da  Recuperacao
-
 */
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-#define MAX 100
+#define MAX 200
 
-struct DATA{
+struct datas{
 	int dia;
 	int mes;
 	int ano;
+	int horas;
+	int minutos;
+	int segundos;
 };
-
-
-struct HORA{
-	int hora;
-	int minuto;
-	int segundo;
-};
-
-void lerDados1(){
-	scanf("%d", &finaliza.dia);
-	scanf("%d", &finaliza.mes);
-	scanf("%d", &finaliza.ano);
-	scanf("%d", &finaliza.hora);
-	scanf("%d", &finaliza.minuto);
-	scanf("%d", &finaliza.segundo);
-	scanf("%s", &frase1);
-	
-}
-
-void lerDados2(){
-
-	scanf("%d", &finaliza.dia);
-	scanf("%d", &finaliza.mes);
-	scanf("%d", &finaliza.ano);
-	scanf("%d", &finaliza.hora);
-	scanf("%d", &finaliza.minuto);
-	scanf("%d", &finaliza.segundo);
-	scanf("%s", &frase1);
-	scanf("%d", &ferias.dia);
-	scanf("%d", &ferias.mes);
-	scanf("%d", &ferias.ano);
-	scanf("%d", &ferias.hora);
-	scanf("%d", &ferias.minuto);
-	scanf("%d", &ferias.segundo);
-	scanf("%s", &frase2);
-}
-
-void lerDados3(){
-
-	scanf("%d", &finaliza.dia);
-	scanf("%d", &finaliza.mes);
-	scanf("%d", &finaliza.ano);
-	scanf("%d", &finaliza.hora);
-	scanf("%d", &finaliza.minuto);
-	scanf("%d", &finaliza.segundo);
-	scanf("%s", frase1);
-	scanf("%d", &ferias.dia);
-	scanf("%d", &ferias.mes);
-	scanf("%d", &ferias.ano);
-	scanf("%d", &ferias.hora);
-	scanf("%d", &ferias.minuto);
-	scanf("%d", &ferias.segundo);
-	scanf("%s", frase2);
-	scanf("%d", &rec.dia);
-	scanf("%d", &rec.mes);
-	scanf("%d", &rec.ano);
-	scanf("%d", &rec.hora);
-	scanf("%d", &rec.minuto);
-	scanf("%d", &rec.segundo);
-	scanf("%s", frase3);
-}
-
 
 int main(){
 
-	int qtd; // quantidade de atividades. entre 1 e 3
+	int qtd;
 
-	char frase1[MAX], frase2[MAX], frase3[MAX];
+	struct datas *primeiro;
+	struct datas *segundo;
+	struct datas *terceiro;
 
-	struct DATA finaliza;
-	struct DATA ferias;
-	struct DATA rec;
-
-	struct HORA finaliza;
-	struct HORA ferias;
-	struct DATA rec;
+	
+	primeiro = (struct datas *) malloc(sizeof(struct datas));
+	segundo = (struct datas *) malloc(sizeof(struct datas));
+	terceiro = (struct datas *) malloc(sizeof(struct datas));
+	
 
 	scanf("%d", &qtd);
-	if(qtd<1 || qtd>3){
-		scanf("%d", &qtd);
+	char frase1[MAX], frase2[MAX], frase3[MAX];
+
+	if(qtd == 1){
+		scanf("%d", &primeiro->dia);
+		scanf("%d", &primeiro->mes);
+		scanf("%d", &primeiro->ano);
+		scanf("%d", &primeiro->horas);
+		scanf("%d", &primeiro->minutos);
+		scanf("%d", &primeiro->segundos);
+		scanf("%s", frase1);
+		/*
+		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
+									   primeiro->horas, primeiro->minutos, primeiro->segundos);
+		printf("%s", frase1);
+		*/
+	}
+	else if(qtd == 2){
+		scanf("%d", &primeiro->dia);
+		scanf("%d", &primeiro->mes);
+		scanf("%d", &primeiro->ano);
+		scanf("%d", &primeiro->horas);
+		scanf("%d", &primeiro->minutos);
+		scanf("%d", &primeiro->segundos);
+		scanf("%s", frase1);
+		scanf("%d", &segundo->dia);
+		scanf("%d", &segundo->mes);
+		scanf("%d", &segundo->ano);
+		scanf("%d", &segundo->horas);
+		scanf("%d", &segundo->minutos);
+		scanf("%d", &segundo->segundos);
+		scanf("%s", frase2);
+		/*
+		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
+									   primeiro->horas, primeiro->minutos, primeiro->segundos);
+		printf("%s\n", frase1);
+		printf("%d/%d/%d  - %d:%d:%d\n", segundo->dia, segundo->mes, segundo->ano,
+									     segundo->horas, segundo->minutos, segundo->segundos);
+		printf("\n%s", frase2);
+		*/
+	}
+	else if(qtd == 3){
+		scanf("%d", &primeiro->dia);
+		scanf("%d", &primeiro->mes);
+		scanf("%d", &primeiro->ano);
+		scanf("%d", &primeiro->horas);
+		scanf("%d", &primeiro->minutos);
+		scanf("%d", &primeiro->segundos);
+		scanf("%s", frase1);
+		scanf("%d", &segundo->dia);
+		scanf("%d", &segundo->mes);
+		scanf("%d", &segundo->ano);
+		scanf("%d", &segundo->horas);
+		scanf("%d", &segundo->minutos);
+		scanf("%d", &segundo->segundos);
+		scanf("%s", frase2);
+		scanf("%d", &terceiro->dia);
+		scanf("%d", &terceiro->mes);
+		scanf("%d", &terceiro->ano);
+		scanf("%d", &terceiro->horas);
+		scanf("%d", &terceiro->minutos);
+		scanf("%d", &terceiro->segundos);
+		scanf("%s", frase3);
+		/*
+		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
+									   primeiro->horas, primeiro->minutos, primeiro->segundos);
+		scanf("%s\n", frase1);
+		printf("%d/%d/%d  - %d:%d:%d\n", segundo->dia, segundo->mes, segundo->ano,
+									     segundo->horas, segundo->minutos, segundo->segundos);
+		scanf("\n%s", frase2);
+		printf("%d/%d/%d  - %d:%d:%d\n", terceiro->dia, terceiro->mes, terceiro->ano,
+									     terceiro->horas, terceiro->minutos, terceiro->segundos);
+		printf("%s", frase3);
+		*/
 	}
 
 	if(qtd==1){
-		lerDados1();
+		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
+									   primeiro->horas, primeiro->minutos, primeiro->segundos);
+		puts(frase1);
 	}
-	else if(qtd==2){
-		lerDados2();
+	else if(qtd ==2){
+		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
+									   primeiro->horas, primeiro->minutos, primeiro->segundos);
+		puts(frase1);
+		printf("%d/%d/%d  - %d:%d:%d\n", segundo->dia, segundo->mes, segundo->ano,
+									     segundo->horas, segundo->minutos, segundo->segundos);
+		puts(frase2);
 	}
 	else if(qtd==3){
-		lerDados3();
+		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
+									   primeiro->horas, primeiro->minutos, primeiro->segundos);
+		puts(frase1);
+		printf("%d/%d/%d  - %d:%d:%d\n", segundo->dia, segundo->mes, segundo->ano,
+									     segundo->horas, segundo->minutos, segundo->segundos);
+		puts(frase2);
+		printf("%d/%d/%d  - %d:%d:%d\n", terceiro->dia, terceiro->mes, terceiro->ano,
+									     terceiro->horas, terceiro->minutos, terceiro->segundos);
+		puts(frase3);
 	}
 
 	

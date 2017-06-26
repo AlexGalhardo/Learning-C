@@ -51,123 +51,40 @@ struct datas{
 	int horas;
 	int minutos;
 	int segundos;
+	char frase[MAX];
 };
 
 int main(){
 
 	int qtd;
-
-	struct datas *primeiro;
-	struct datas *segundo;
-	struct datas *terceiro;
-
 	
-	primeiro = (struct datas *) malloc(sizeof(struct datas));
-	segundo = (struct datas *) malloc(sizeof(struct datas));
-	terceiro = (struct datas *) malloc(sizeof(struct datas));
-	
-
 	scanf("%d", &qtd);
-	char frase1[MAX], frase2[MAX], frase3[MAX];
 
-	if(qtd == 1){
-		scanf("%d", &primeiro->dia);
-		scanf("%d", &primeiro->mes);
-		scanf("%d", &primeiro->ano);
-		scanf("%d", &primeiro->horas);
-		scanf("%d", &primeiro->minutos);
-		scanf("%d", &primeiro->segundos);
-		scanf("%s", frase1);
-		/*
-		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
-									   primeiro->horas, primeiro->minutos, primeiro->segundos);
-		printf("%s", frase1);
-		*/
-	}
-	else if(qtd == 2){
-		scanf("%d", &primeiro->dia);
-		scanf("%d", &primeiro->mes);
-		scanf("%d", &primeiro->ano);
-		scanf("%d", &primeiro->horas);
-		scanf("%d", &primeiro->minutos);
-		scanf("%d", &primeiro->segundos);
-		scanf("%s", frase1);
-		scanf("%d", &segundo->dia);
-		scanf("%d", &segundo->mes);
-		scanf("%d", &segundo->ano);
-		scanf("%d", &segundo->horas);
-		scanf("%d", &segundo->minutos);
-		scanf("%d", &segundo->segundos);
-		scanf("%s", frase2);
-		/*
-		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
-									   primeiro->horas, primeiro->minutos, primeiro->segundos);
-		printf("%s\n", frase1);
-		printf("%d/%d/%d  - %d:%d:%d\n", segundo->dia, segundo->mes, segundo->ano,
-									     segundo->horas, segundo->minutos, segundo->segundos);
-		printf("\n%s", frase2);
-		*/
-	}
-	else if(qtd == 3){
-		scanf("%d", &primeiro->dia);
-		scanf("%d", &primeiro->mes);
-		scanf("%d", &primeiro->ano);
-		scanf("%d", &primeiro->horas);
-		scanf("%d", &primeiro->minutos);
-		scanf("%d", &primeiro->segundos);
-		scanf("%s", frase1);
-		scanf("%d", &segundo->dia);
-		scanf("%d", &segundo->mes);
-		scanf("%d", &segundo->ano);
-		scanf("%d", &segundo->horas);
-		scanf("%d", &segundo->minutos);
-		scanf("%d", &segundo->segundos);
-		scanf("%s", frase2);
-		scanf("%d", &terceiro->dia);
-		scanf("%d", &terceiro->mes);
-		scanf("%d", &terceiro->ano);
-		scanf("%d", &terceiro->horas);
-		scanf("%d", &terceiro->minutos);
-		scanf("%d", &terceiro->segundos);
-		scanf("%s", frase3);
-		/*
-		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
-									   primeiro->horas, primeiro->minutos, primeiro->segundos);
-		scanf("%s\n", frase1);
-		printf("%d/%d/%d  - %d:%d:%d\n", segundo->dia, segundo->mes, segundo->ano,
-									     segundo->horas, segundo->minutos, segundo->segundos);
-		scanf("\n%s", frase2);
-		printf("%d/%d/%d  - %d:%d:%d\n", terceiro->dia, terceiro->mes, terceiro->ano,
-									     terceiro->horas, terceiro->minutos, terceiro->segundos);
-		printf("%s", frase3);
-		*/
+	struct datas *vetor[qtd]; // criar um vetor de estruturas de acordo com a quantidade que o usuario oferecer
+
+	vetor[qtd] = (struct datas*) malloc(sizeof(struct datas));
+
+	// ENTRADAS
+	int i;
+	for(i=0; i<qtd; i++){
+		scanf("%d", &vetor[i]->dia);
+		scanf("%d", &vetor[i]->mes);
+		scanf("%d", &vetor[i]->ano);
+		scanf("%d", &vetor[i]->horas);
+		scanf("%d", &vetor[i]->minutos);
+		scanf("%d", &vetor[i]->segundos);
+		scanf("%s", vetor[i]->frase);
 	}
 
-	if(qtd==1){
-		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
-									   primeiro->horas, primeiro->minutos, primeiro->segundos);
-		puts(frase1);
-	}
-	else if(qtd ==2){
-		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
-									   primeiro->horas, primeiro->minutos, primeiro->segundos);
-		puts(frase1);
-		printf("%d/%d/%d  - %d:%d:%d\n", segundo->dia, segundo->mes, segundo->ano,
-									     segundo->horas, segundo->minutos, segundo->segundos);
-		puts(frase2);
-	}
-	else if(qtd==3){
-		printf("%d/%d/%d  - %d:%d:%d\n", primeiro->dia, primeiro->mes, primeiro->ano,
-									   primeiro->horas, primeiro->minutos, primeiro->segundos);
-		puts(frase1);
-		printf("%d/%d/%d  - %d:%d:%d\n", segundo->dia, segundo->mes, segundo->ano,
-									     segundo->horas, segundo->minutos, segundo->segundos);
-		puts(frase2);
-		printf("%d/%d/%d  - %d:%d:%d\n", terceiro->dia, terceiro->mes, terceiro->ano,
-									     terceiro->horas, terceiro->minutos, terceiro->segundos);
-		puts(frase3);
+	// SAIDAS
+	int j;
+	for(j=0; j<qtd; j++){
+		printf("%d/%d/%d  - %d:%d:%d\n%s", vetor[i]->dia, vetor[i]->mes, vetor[i]->ano,
+									   vetor[i]->horas, vetor[i]->minutos, vetor[i]->segundos, vetor[i]->frase);
 	}
 
+
+	free(vetor);
 	
 	return 0;
 }

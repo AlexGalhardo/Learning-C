@@ -1,3 +1,5 @@
+/* FUNÇÃO PARA COLOCAR CADA CARACTERE DENTRO DE UM ARQUIVO */
+
 #include <stdio.h>
 #include <string.h>
 

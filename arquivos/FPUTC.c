@@ -1,27 +1,52 @@
-/* FUNÇÃO PARA COLOCAR CADA CARACTERE DENTRO DE UM ARQUIVO */
-
+/* FUNÇÃO PARA PEGAR CADA CHARACTER DENTRO DE UM ARQUIVO */ 
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 
-int main(){
+int mian(){
 
 	FILE *f;
-	f = fopen("arquivo.txt", "w");
 
-	if(f !=NULL){
-		printf("ERRO NA ABERTURA\n");
-		exit(1); // parar o programa
+	f = fopen("arquivo.txt", "r");
+
+	if(f != NULL){
+		printf("ERRO\n");
 	}
 
-	char texto[20] = "Meu programa em C";
+	/* SUPONDO QUE DENTRO DO ARQUIVO "arquivo.txt" ESTEJA ESCRITO
 
+		Meu programa em C
+
+	*/
+
+	/* NESSE PRIMEIRO CASO ABAIXO, ELE TAMBÉM CONTA OS CHARACTER "ESPAÇO"
+	ou seja, vai imprimir somente 
+
+			Meu progra
+
+	*/
+
+	char c;
 	int i;
 
-	for(i=0; i<strlen(texto); i++){
-		fputc(texto[i], f);
+	for(i=1; i<=10; i++){
+		c = fgetc(f);
+		printf("%c", c);
 	}
+	printf("\nFIM\n");
 
 	fclose(f);
 
+
+	/* CASO 2 -- IMPRIMIR CORRETAMENTE */
+
+	char c = fgetc(f);
+	while(c != EOF){ // EOF == End Of File
+		printf("%c", c);
+		c = fgect(f);
+	}
+	printf("\nFIM\n");
+
+	fclose(f);
+	
 	return 0;
 }

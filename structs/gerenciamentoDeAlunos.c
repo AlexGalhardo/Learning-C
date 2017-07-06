@@ -145,9 +145,9 @@ void func(registro *vet, int cont){
 int main(){
 
     int cont;
-
     registro *vet;
     vet = criar(&cont);
     func(vet, cont);
+    
     return 0;
 }

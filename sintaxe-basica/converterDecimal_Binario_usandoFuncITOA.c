@@ -1,8 +1,8 @@
 // FUNÇÃO QUE CONVERTE UM NÚMERO DECIMAL EM BINÁRIO USANDO A FUNÇÃO ITOA() DA BIBLIOTECA CONIO.H
 
-#include "stdio.h"
-#include "stdlib.h"
-#include "conio.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
 
 int main(int argc, char* argv[]){
 	

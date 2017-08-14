@@ -1,7 +1,5 @@
-<strong> Canais Youtube </strong>
-
-Linguagem C Programação Descomplicada
-https://www.youtube.com/user/progdescomplicada/featured
+ - <strong>Youtube</strong>
+   - [Linguagem C Programação Descomplicada](https://www.youtube.com/user/progdescomplicada/featured)
 
 
 

@@ -1,0 +1,14 @@
+ - <strong>Referências</strong>
+   - [Comunidade C++ Brasil](http://ccppbrasil.github.io/)
+   - [GameDeveloper Blog](http://gamedeveloper.com.br/)
+   - [GameDev USP](https://uspgamedev.org/#)
+   - [GameDev USP WIKI](https://uspgamedev.org/wiki/USPGameDev_Wiki)
+   - [Do zero ao mestre em C++](http://dozeroaomestre.blogspot.com.br/2014/10/a-pedras-no-caminho-de-um-iniciante.html)
+   - [Bests books to learn C++](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
+   - [Learn CPP](https://hackr.io/tutorials/learn-c-plus-plus)
+   - [C++ Tutoriais from TheNewBoston](https://www.youtube.com/watch?v=3Iq_uFbc4L4&list=PLAE85DE8440AA6B83&index=6)
+   - [Quero Aprender C++ e agora?](https://vinipsmaker.wordpress.com/2013/01/13/quero-aprender-cpp-e-agora/)
+   - [Best Reference CPP](http://en.cppreference.com/w/)
+   - [Library QT](https://www.qt.io/developers/)
+   - [Boost C++ Library](http://www.boost.org/)
+

@@ -13,4 +13,5 @@
    - [Boost C++ Library](http://www.boost.org/)
    - [Forgotten Server](https://github.com/otland/forgottenserver)
    - [Quake 3 Arena](https://github.com/id-Software/Quake-III-Arena)
+   - [Open Tibia Server](https://github.com/opentibia/server)
 

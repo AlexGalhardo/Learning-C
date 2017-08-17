@@ -15,4 +15,5 @@
    - [Quake 3 Arena](https://github.com/id-Software/Quake-III-Arena)
    - [Open Tibia Server](https://github.com/opentibia/server)
    - [Ot Client](https://github.com/edubart/otclient)
+   - [Mario 2D Application](https://github.com/jakowskidev/uMario_Jakowski)
 

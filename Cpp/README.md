@@ -16,4 +16,5 @@
    - [Open Tibia Server](https://github.com/opentibia/server)
    - [Ot Client](https://github.com/edubart/otclient)
    - [Mario 2D Application](https://github.com/jakowskidev/uMario_Jakowski)
+   - [DOOM-3](https://github.com/id-Software/DOOM-3)
 

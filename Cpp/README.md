@@ -1,3 +1,9 @@
+ - <strong>Games</strong>
+   - [ClanLib](http://www.clanlib.org/)
+   - [Criação de games com DirectX/C++](http://www.industriadejogos.com.br/tutoriais/palestra-criacao-de-games-com-directxc/)
+   - [SDL](https://www.libsdl.org/)
+   - [OpenGL](https://www.opengl.org/)
+ 
  - <strong>Referências</strong>
    - [Comunidade C++ Brasil](http://ccppbrasil.github.io/)
    - [GameDeveloper Blog](http://gamedeveloper.com.br/)

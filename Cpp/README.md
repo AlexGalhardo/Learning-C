@@ -1,3 +1,6 @@
+ - <strong>Curso C++ UFRJ</strong>
+   - [UFRJ](http://orion.lcg.ufrj.br/C++/curso)
+ 
  - <strong>Games</strong>
    - [ClanLib](http://www.clanlib.org/)
    - [Criação de games com DirectX/C++](http://www.industriadejogos.com.br/tutoriais/palestra-criacao-de-games-com-directxc/)

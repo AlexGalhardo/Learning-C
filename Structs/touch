@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <string.h>
+#define MAX 30
+
+int main(){
+
+	struct ALUNO {
+		char numUSP[10];
+		char nome[MAX];
+		char sexo;
+		float renda;
+	};
+
+	// para declarar uma struct
+	struct ALUNO alex;
+
+	// parar criar uma instancia de si mesmo, deve ser ponteiro.
+
+	struct CARRO{
+		char modelo[30];
+		float litros;
+		struct CARRO *ford; // correto
+		struct CARRO ford; // ERRO
+	};
+
+	// criando struct tipo registro em C
+	struct PESSOA{
+		char nome[30];
+		float peso;
+		int cpf;
+	}pessoa1, pessoa2;
+	
+	//iniciar um elemento de uma variavel
+	strcpy(pessoa1.nome, "Alex");
+	strycpy(pessoa1.peso, 60);
+	strcpy(pessoa1.cpf, 123123123);
+
+	strcpy(pessoa2.nome, "Joao");
+		
+
+
+	return 0;
+}

@@ -1,0 +1,42 @@
+
+http://equipe.nce.ufrj.br/adriano/c/apostila/
+
+http://www.pb.utfpr.edu.br/omero/C/Exercicios/
+
+https://www.ime.usp.br/~yw/2012/mac110/material/
+
+https://www.youtube.com/channel/UCsJ9rfrTnVJqi7KsSR-1SoA
+
+http://linguagemc.xpg.uol.com.br/expressao.html#inout
+
+https://www.ime.usp.br/~pf/algoritmos/index.html
+
+https://www.ime.usp.br/~pf/algoritmos-livro/slides/SLIDES-A-handout.pdf
+
+https://www.ime.usp.br/~pf/algoritmos-livro/index.html
+
+https://www.ime.usp.br/~pf/algoritmos/idx.html
+
+https://dealunoparaaluno.wordpress.com/
+
+https://www.ime.usp.br/~mms/
+
+http://www.facom.ufu.br/~backes/wordpress/
+
+Algoritmos e funções recursivas
+-> https://www.ime.usp.br/~mms/mac1222s2013/12%20-%20algoritmos%20e%20funcoes%20recursivas.pdf
+-> https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html
+
+http://www.inf.unioeste.br/~guilherme/cursos/c.pdf
+
+https://www.cenapad.unicamp.br/servicos/treinamentos/apostilas/apostila_C.pdf
+
+http://www.cplusplus.com/reference/cstdio/printf/
+
+http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm
+
+http://www.devfuria.com.br/
+
+https://rafaelomarques.wordpress.com/tag/c-3/
+
+http://fig.if.usp.br/~esdobay/

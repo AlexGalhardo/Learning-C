@@ -8,6 +8,7 @@
    - [OpenGL](https://www.opengl.org/)
  
  - <strong>Referências</strong>
+   - [Cpluplus](http://www.cplusplus.com/)
    - [Comunidade C++ Brasil](http://ccppbrasil.github.io/)
    - [GameDeveloper Blog](http://gamedeveloper.com.br/)
    - [GameDev USP](https://uspgamedev.org/#)

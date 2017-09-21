@@ -13,6 +13,7 @@
   - <strong>Compiladores</strong>
     - [minGW](http://www.mingw.org/)
     - [Gcc GNU](https://gcc.gnu.org/)
+    - "Terminal Linux -> Melhor que existe"
 
 
 

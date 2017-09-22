@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1355504602 source:d:\projfiladin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1355502341 d:\projfiladin\filadin.h
+
+1355504571 source:d:\projfiladin\filadin.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1361102111 source:d:\andre\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1355498742 d:\andre\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\filadin.h
+
+1361104909 source:d:\andre\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\filadin.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1361102112 source:d:\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+
+1374587812 d:\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\filadin.h
+
+1374588089 source:d:\pesquisa\publicações\livro estutura de dados em c\códigos\projfiladin\filadin.c
+	<stdio.h>
+	<stdlib.h>
+	"FilaDin.h"
+

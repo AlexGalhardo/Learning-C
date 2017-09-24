@@ -5,6 +5,7 @@
     - [Wiki ICMC USP](http://wiki.icmc.usp.br/index.php/P%C3%A1gina_principal_CoteiaWIKI)
     - [Tutorials Point - C Standard Library](https://www.tutorialspoint.com/c_standard_library/)
     - [C and CPP Reference](http://en.cppreference.com/w/)
+    - [RoadMap C++](http://www.pontov.com.br/site/index.php/cpp/46-conceitos-basicos/88-roadmap-c)
     
   - <strong>IDEs</strong>
     - [CodeBlocks](http://www.codeblocks.org/)

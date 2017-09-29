@@ -14,3 +14,4 @@
  - <strong>IDEs</strong>
     - [CodeLite](https://codelite.org/)
     - [CodeBlocks](http://www.codeblocks.org/)
+    - [Cloud9](https://c9.io/?redirect=0)

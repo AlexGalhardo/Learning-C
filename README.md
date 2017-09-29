@@ -11,7 +11,8 @@
     - [Curso C++ UFRJ](http://orion.lcg.ufrj.br/C++/curso/)
     - [C++ Programming The New Boston](https://www.youtube.com/watch?v=tvC1WCdV1XU&list=PLAE85DE8440AA6B83&index=1)
     - [Curso C++ Intermediário FREE - Udemy](https://www.udemy.com/cplusplus-intermediario/)
-    
+    - [Introdução à OpenGL - Professora Isabel Harb Manssour](http://www.inf.pucrs.br/~manssour/OpenGL/Tutorial.html)
+    - [OpenGL - Prof. Márcio Sarroglia Pinho ](http://www.inf.pucrs.br/~pinho/CG/Aulas/OpenGL/OpenGL.html)
     
  - <strong>IDEs</strong>
     - [CodeLite](https://codelite.org/)

@@ -6,6 +6,7 @@
     - [Cplusplus](http://www.cplusplus.com/)
     - [Cpp Reference](http://en.cppreference.com/w/)
     - [C Progressivo](http://www.cprogressivo.net/)
+    - [TheChernoProject](https://www.youtube.com/channel/UCQ-W1KE9EYfdxhL6S4twUNw)
     
  - <strong>C++</strong>
     - [Curso C++ UFRJ](http://orion.lcg.ufrj.br/C++/curso/)

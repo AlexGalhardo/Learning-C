@@ -1,20 +1,19 @@
-// Batalha Naval Basico
-// Por Felipe Rodrigues e Rodrigo Oliveira
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
 #include <string.h>
 #include <time.h>
-#include "batalha.h" //Com Macros para facilitar o entendimento do código e outros
+#include "batalha.h" //Com Macros para facilitar o entendimento do cÃ³digo e outros
 
 #define W 176
 #define I 176
 
 /*Legenda:
 1 Casa  = S = Submarino = 1
-2 Casas = E = Encouraçado = 2
+2 Casas = E = EncouraÃ§ado = 2
 3 Casas = C = Cruzador = 3
-4 Casas = H = Hidro Avião = 4
+4 Casas = H = Hidro AviÄƒo = 4
 5 5asas = P = Porta Aviao = 2
 */
 
@@ -25,7 +24,7 @@ void player2();
 int main();
 
 
-char mapa[16][26]={              //Mapa que aparecerá pro jogador
+char mapa[16][26]={              //Mapa que aparecerÃ¡ pro jogador
                    {W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W},
                    {W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W},
                    {W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W},
@@ -43,7 +42,7 @@ char mapa[16][26]={              //Mapa que aparecerá pro jogador
                    {W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W},
                    {W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W}},
 
-mapa2[16][26]={              //Mapa que aparecerá pro jogador2
+mapa2[16][26]={              //Mapa que aparecerÃ¡ pro jogador2
                    {W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W},
                    {W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W},
                    {W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W, W},
@@ -102,18 +101,18 @@ char opt;
 int linha_atual=0, coluna_atual=0,tiros,jacomecou=NAO, tecla,pontos=0,linha,coluna,
     linha_atual2=0, coluna_atual2=0,tiros2,pontos2=0,perde=0,doisp=NAO,
 
-//Pontuações Player 1
+//PontuaÃ§Å‘es Player 1
     cont_sub=0, af_sub=0,cont_enc=0, af_enc=0, cont_cruz=0,
     af_cruz=0, cont_hidro=0, af_hidro=0, cont_pa=0, af_pa=0,
 
-//Pontuações Player 2
+//PontuaÃ§Å‘es Player 2
     cont_sub2=0, af_sub2=0,cont_enc2=0, af_enc2=0, cont_cruz2=0,
     af_cruz2=0, cont_hidro2=0, af_hidro2=0, cont_pa2=0, af_pa2=0;
 
 
 float tempo;
 
-void reset(){ //Reseta o mapa,os tiros, a posição,etc
+void reset(){ //Reseta o mapa,os tiros, a posiÃ§Äƒo,etc
 for (linha=0;linha<16;linha++)
               for(coluna=0;coluna<26;coluna++) mapa[linha][coluna]=W;
               linha_atual=0, coluna_atual=0;
@@ -152,7 +151,7 @@ printf("     |                          [5] Hist%crico                          
   puts("     |____________________________________________________________________|");
 opt=getch();
 system("cls");
-    if(opt=='1' && jacomecou==SIM && doisp==NAO) return SIM; // Se ele já começou o jogo, Retorna pro game
+    if(opt=='1' && jacomecou==SIM && doisp==NAO) return SIM; // Se ele jÃ¡ comeÃ§ou o jogo, Retorna pro game
     switch(opt){
             case '1':
             doisp=NAO;
@@ -243,7 +242,7 @@ system("cls");
 }//endfor
 
 return NAO; //Se retornar 1, tem algum erro
-} // endfunção
+} // endfunÃ§Äƒo
 
 void rank(){
     system("cls");
@@ -275,7 +274,7 @@ system("cls");
     puts("|                       Historico de Jogadores\n\n");
 
 arquivo=fopen("btnh.fer","r");//n sei pq mas tive que reabrir como somente leitura pra fazer esse scan
-while(!feof(arquivo)){//enquanto não atingir o final do arquivo
+while(!feof(arquivo)){//enquanto nÄƒo atingir o final do arquivo
 c=getc(arquivo);//captura cada caractere
 printf("%c",c);// e imprime ele
 }//endwhile
@@ -325,7 +324,7 @@ system("color e");
 return;
 }
 
-void perdeu(){ //Quando o jogador perder (mais provável)
+void perdeu(){ //Quando o jogador perder (mais provÃ¡vel)
 system("cls");
 system("color 0F");
 tempo=clock();
@@ -355,7 +354,7 @@ for(;;){
     }
 }
 
-void impmapa(){ //Função pra tela fixa
+void impmapa(){ //FunÃ§Äƒo pra tela fixa
 system("cls");
 int linha,coluna;
 puts("*******************************************************************************");
@@ -382,7 +381,7 @@ cortexto(129);
          return;
 }//fim void
 
-void impmapa2(){ //Função pra tela fixa
+void impmapa2(){ //FunÃ§Äƒo pra tela fixa
 system("cls");
 int linha,coluna;
 puts("*******************************************************************************");
@@ -413,7 +412,7 @@ void player1(){
 for(;;){
 for(;;){
 
-        impmapa(); //Funçao Imprime o Mapa
+        impmapa(); //FunÃ§ao Imprime o Mapa
 
         printf("\n Movimentos:\n"); // Imprime as direcoes
         printf("     %c          \t\t\t%c Submarino:     %d/1 |\tAfundou: %d/3 \n",30,4,cont_sub,af_sub);
@@ -446,8 +445,8 @@ if(coluna_atual<0) coluna_atual++;
 
 system("cls");
 
-//Tem jeito (muito) mais simples de montar esse IF, mas pra evitar bugs, preferí assim
-//O jeito mais simples é colocar: se(diferente de escondido){ja acertou}
+//Tem jeito (muito) mais simples de montar esse IF, mas pra evitar bugs, preferÃ­ assim
+//O jeito mais simples Ã© colocar: se(diferente de escondido){ja acertou}
 if (mapa[linha_atual][coluna_atual]==4   || mapa[linha_atual][coluna_atual]==16 || mapa[linha_atual][coluna_atual]==205 ||
     mapa[linha_atual][coluna_atual]==254 || mapa[linha_atual][coluna_atual]==17 || mapa[linha_atual][coluna_atual]==126){
                                                  tiros++;
@@ -468,7 +467,7 @@ if (mapa[linha_atual][coluna_atual]==4   || mapa[linha_atual][coluna_atual]==16 
                                                         if (cont_sub==1){
                                                             cont_sub=0;
                                                             af_sub++;}
-                                                        //chama a funçao colrida
+                                                        //chama a funÃ§ao colrida
                                                         if (af_sub==3)printf ("\nVoce afundou todos os submarinos!!!");
                                                         getch();//pausa
 
@@ -551,7 +550,7 @@ void player2(){
 
 for(;;){
 for(;;){
-        impmapa2(); //Funçao Imprime o Mapa
+        impmapa2(); //FunÃ§ao Imprime o Mapa
 
         printf("\n Movimentos:\n"); // Imprime as direcoes
         printf("     %c          \t\t\t%c Submarino:     %d/1 |\tAfundou: %d/3 \n",30,4,cont_sub2,af_sub2);
@@ -584,8 +583,8 @@ if(coluna_atual2<0) coluna_atual2++;
 
 system("cls");
 
-//Tem jeito (muito) mais simples de montar esse IF, mas pra evitar bugs, preferí assim
-//O jeito mais simples é colocar: se(diferente de escondido){ja acertou}
+//Tem jeito (muito) mais simples de montar esse IF, mas pra evitar bugs, preferÃ­ assim
+//O jeito mais simples Ã© colocar: se(diferente de escondido){ja acertou}
 if (mapa2[linha_atual2][coluna_atual2]==4   || mapa2[linha_atual2][coluna_atual2]==16 || mapa2[linha_atual2][coluna_atual2]==205 ||
     mapa2[linha_atual2][coluna_atual2]==254 || mapa2[linha_atual2][coluna_atual2]==17 || mapa2[linha_atual2][coluna_atual2]==126){
                                                  tiros2++;
@@ -602,11 +601,11 @@ if (mapa2[linha_atual2][coluna_atual2]==4   || mapa2[linha_atual2][coluna_atual2
                                                         impmapa2();
                                                         pontos2++;
                                                         puts("Acertou um Submarino!");
-                                                        acerto();//chama a funçao colrida
+                                                        acerto();//chama a funÃ§ao colrida
                                                         if (cont_sub2==1){
                                                             cont_sub2=0;
                                                             af_sub2++;}
-                                                        //chama a funçao colrida
+                                                        //chama a funÃ§ao colrida
                                                         if (af_sub2==3)printf ("\nVoce afundou todos os submarinos!!!");
                                                         getch();//pausa
                                                     }
@@ -677,11 +676,11 @@ if (mapa2[linha_atual2][coluna_atual2]==4   || mapa2[linha_atual2][coluna_atual2
 
 int main(void){
     janela(80,33);//Regular a janela
-start(); // chama a função de inicio do game
+start(); // chama a funÃ§Äƒo de inicio do game
 system("color 81");
 for(;;){
 for(;;){
-        impmapa(); //Funçao Imprime o Mapa
+        impmapa(); //FunÃ§ao Imprime o Mapa
 
        printf("\n Movimentos:\n"); // Imprime as direcoes
         printf("     %c          \t\t\t%c Submarino:     %d/1 |\tAfundou: %d/3 \n",30,4,cont_sub,af_sub);
@@ -713,8 +712,8 @@ if(coluna_atual<0) coluna_atual++;
 
 system("cls");
 
-//Tem jeito (muito) mais simples de montar esse IF, mas pra evitar bugs, preferí assim
-//O jeito mais simples é colocar: se(diferente de escondido){ja acertou}
+//Tem jeito (muito) mais simples de montar esse IF, mas pra evitar bugs, preferÃ­ assim
+//O jeito mais simples Ã© colocar: se(diferente de escondido){ja acertou}
 if (mapa[linha_atual][coluna_atual]==4   || mapa[linha_atual][coluna_atual]==16 || mapa[linha_atual][coluna_atual]==205 ||
     mapa[linha_atual][coluna_atual]==254 || mapa[linha_atual][coluna_atual]==17 || mapa[linha_atual][coluna_atual]==126){
                                                  tiros++;
@@ -735,7 +734,7 @@ if (mapa[linha_atual][coluna_atual]==4   || mapa[linha_atual][coluna_atual]==16 
                                                         if (cont_sub==1){
                                                             cont_sub=0;
                                                             af_sub++;}
-                                                        //chama a funçao colrida
+                                                        //chama a funÃ§ao colrida
                                                         if (af_sub==3)printf ("\nVoce afundou todos os submarinos!!!");
                                                         getch();//pausa
 

@@ -30,14 +30,14 @@ int main(){
 		}
 
 		for (k = 1; k < n; k++) {
-        	for (j = 0; j < n - 1; j++) {
-            	if (vetor[j] > vetor[j + 1]) {
-                	aux          = vetor[j];
-                	vetor[j]     = vetor[j + 1];
-                	vetor[j + 1] = aux;
-            	}
-        	}
-        }
+			for (j = 0; j < n - 1; j++) {
+				if (vetor[j] > vetor[j + 1]) {
+					aux          = vetor[j];
+					vetor[j]     = vetor[j + 1];
+					vetor[j + 1] = aux;
+				}
+			}
+       		}
 
 		for(i=0; i<n; i++){
 			printf("%d ", vetor[i]);
@@ -50,14 +50,14 @@ int main(){
 		}
 
 		for (k = 1; k < n; k++) {
-        	for (j = 0; j < n-1; j++) {
-            	if (vetor[j] < vetor[j + 1]) {
-                	aux          = vetor[j];
-                	vetor[j]     = vetor[j + 1];
-                	vetor[j + 1] = aux;
-        		}
+			for (j = 0; j < n-1; j++) {
+				if (vetor[j] < vetor[j + 1]) {
+				aux          = vetor[j];
+				vetor[j]     = vetor[j + 1];
+				vetor[j + 1] = aux;
+				}
+			}
         	}
-        }
 
 		for(i=0; i<n; i++){
 			printf("%d ", vetor[i]);

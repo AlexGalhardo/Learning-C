@@ -13,3 +13,57 @@ Saída:
 
 0 1 2 3 4 5 6 7 8 9
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(){
+
+	int n, op;
+	scanf("%d", &n);
+	scanf("%d", &op);
+	int vetor[n], aux, k, j, i;
+	if(op == 0){
+		for(i=0; i<n; i++){
+			scanf("%d", &vetor[i]);
+		}
+
+		for (k = 1; k < n; k++) {
+        	for (j = 0; j < n - 1; j++) {
+            	if (vetor[j] > vetor[j + 1]) {
+                	aux          = vetor[j];
+                	vetor[j]     = vetor[j + 1];
+                	vetor[j + 1] = aux;
+            	}
+        	}
+        }
+
+		for(i=0; i<n; i++){
+			printf("%d ", vetor[i]);
+		}
+
+	}
+	else{
+		for(i=0; i<n; i++){
+			scanf("%d", &vetor[i]);
+		}
+
+		for (k = 1; k < n; k++) {
+        	for (j = 0; j < n-1; j++) {
+            	if (vetor[j] < vetor[j + 1]) {
+                	aux          = vetor[j];
+                	vetor[j]     = vetor[j + 1];
+                	vetor[j + 1] = aux;
+        		}
+        	}
+        }
+
+		for(i=0; i<n; i++){
+			printf("%d ", vetor[i]);
+		}
+	}
+
+
+	return 0;
+}

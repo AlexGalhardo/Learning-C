@@ -1,4 +1,3 @@
-// Desenvolvido por Angelino Gonsalves, como projeto do primeiro periodo de analise e desenvolvimento de sistemas UTFPR ponta grossa
 
 #include<windows.h>
 #include<stdio.h>
@@ -135,7 +134,7 @@ int dificuldade()
 void desenvolvimento()
 {
     int d=2, x, t=1, pontos=0, level=1, k=10, resp;
-    //d= direção/ x= auxiliar/ t= auxiliar/ level= nivel k= controle do nivel/ pontos= pontuação/ veloc= controle sleep/ resp= resposta para continuar
+    //d= direÃ§Ã£o/ x= auxiliar/ t= auxiliar/ level= nivel k= controle do nivel/ pontos= pontuaÃ§Ã£o/ veloc= controle sleep/ resp= resposta para continuar
     int cx[300]={1,2}, cy[300]={7,7}, ax, ay, ox, oy;
     // cx= tamanho da cobra na horizontal // cy= tamanho da cobra na vertical // ax e ay = local do alimento // ox e oy = local do obstculo
     int tecla=32;
@@ -214,11 +213,11 @@ void desenvolvimento()
 
     do
     {
-        printf("\n\n\t\t Deseja come%car denovo? \n\t\t <1>SIM <2>N%cO \n", 135, 199);      // seleção para recomeçar o jogo
+        printf("\n\n\t\t Deseja come%car denovo? \n\t\t <1>SIM <2>N%cO \n", 135, 199);      // seleÃ§Ã£o para recomeÃ§ar o jogo
         scanf("%d", &resp);
     }while (resp!=1 && resp!=2);
     system("cls");
-    if (resp==1)        // se 1 pressinado, ele retorna ao main e começa tudo de novo
+    if (resp==1)        // se 1 pressinado, ele retorna ao main e comeÃ§a tudo de novo
     {
         main();
     }

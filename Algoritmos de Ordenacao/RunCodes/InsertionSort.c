@@ -13,3 +13,64 @@ Saída:
 
 0 1 2 3 4 5 6 7 8 9
 */
+
+#include <stdio.h>
+
+void insertionSort(int *vetor, int n){
+
+	int i, j, aux;
+	for(i= 1; i < n; i++){
+		aux = vetor[i];
+		for(j=i; (j>0) && (aux < vetor[j-1]); j--){
+			vetor[j] = vetor[j-1];
+		}
+		vetor[j] = aux;
+	}
+}
+
+void insertionSortDec(int *vetor, int n){
+
+	int i, j, aux;
+	for(i= 1; i < n; i++){
+		aux = vetor[i];
+		for(j=i; (j>0) && (aux > vetor[j-1]); j--){
+			vetor[j] = vetor[j-1];
+		}
+		vetor[j] = aux;
+	}
+}
+
+int main(){
+
+	int n, op;
+	scanf("%d", &n);
+	scanf("%d", &op);
+	int vetor[n], i;
+
+	if(op == 0){
+
+		for(i=0; i<n; i++){
+			scanf("%d", &vetor[i]);
+		}
+
+		insertionSort(vetor, n);
+
+		for(i=0; i<n; i++){
+			printf("%d ", vetor[i]);
+		}
+	}
+	else{
+
+		for(i=0; i<n; i++){
+			scanf("%d", &vetor[i]);
+		}
+
+		insertionSortDec(vetor, n);
+
+		for(i=0; i<n; i++){
+			printf("%d ", vetor[i]);
+		}
+	}
+
+	return 0;
+}

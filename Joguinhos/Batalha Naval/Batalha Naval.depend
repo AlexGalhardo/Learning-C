@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1344969126 source:e:\google drive\tec info\c\trabalho\batalha naval\main.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<time.h>
+	<conio2.h>
+
+1344280387 source:e:\google drive\tec info\c\trabalho\batalha naval\ícone.rc
+
+1345126648 source:f:\nova pasta\trabalho\batalha naval\ícone.rc
+
+1345519624 source:f:\nova pasta\trabalho\batalha naval\main.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<time.h>
+	"batalha.h"
+
+1344886414 f:\nova pasta\trabalho\batalha naval\conio3.h
+	<stdio.h>
+
+1344825982 f:\nova pasta\trabalho\batalha naval\dos.h
+	<_mingw.h>
+	<stddef.h>
+	<io.h>
+
+1345126648 source:e:\nova pasta\trabalho\batalha naval\ícone.rc
+
+1345215644 source:e:\nova pasta\trabalho\batalha naval\main.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<time.h>
+	"conio3.h"
+	"dos.h"
+
+1344886414 e:\nova pasta\trabalho\batalha naval\conio3.h
+	<stdio.h>
+
+1344825982 e:\nova pasta\trabalho\batalha naval\dos.h
+	<_mingw.h>
+	<stddef.h>
+	<io.h>
+
+1345467296 f:\nova pasta\trabalho\batalha naval\batalha.h
+	<windows.h>
+
+1345126648 source:f:\codes\batalha\trabalho\batalha naval\ícone.rc
+
+1346273952 source:f:\codes\batalha\trabalho\batalha naval\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<time.h>
+	"batalha.h"
+
+1346274156 f:\codes\batalha\trabalho\batalha naval\batalha.h
+	<windows.h>
+	<windows.h>
+	<stdio.h>
+
+1345126648 source:e:\codes\batalha\trabalho\batalha naval\ícone.rc
+
+1345811022 source:e:\codes\batalha\trabalho\batalha naval\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<time.h>
+	"batalha.h"
+
+1345467296 e:\codes\batalha\trabalho\batalha naval\batalha.h
+	<windows.h>
+

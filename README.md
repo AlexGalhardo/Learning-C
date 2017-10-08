@@ -19,3 +19,9 @@
     - [CodeLite](https://codelite.org/)
     - [CodeBlocks](http://www.codeblocks.org/)
     - [Cloud9](https://c9.io/?redirect=0)
+ 
+ - [Grupo Comp Lang C++](https://groups.google.com/forum/#!forum/comp.lang.c++)
+ 
+ 
+ - <strog>Provavelmente o slide que mais me influênciou até hoje.</strong>
+    - [Deep C](https://www.slideshare.net/olvemaudal/deep-c/226-include_stdioh_struct_X_int)

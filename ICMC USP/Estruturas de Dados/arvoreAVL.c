@@ -6,41 +6,6 @@ Using Gmail with screen readers
 Search
 
 
-
-Gmail
-COMPOSE
-Labels
-Inbox (104)
-Starred
-Sent Mail
-Drafts (1)
-More 
-Hangouts
-
- 
- 
- 
-  More 
-2 of 432  
- 
-Print all In new window
-ARVORE FINAL 
-Inbox
-x 
-
-Alex Galhardo <aleexgvieira@gmail.com>
-Attachments16:54 (2 hours ago)
-
-to Alex, alexgalhardo 
-Attachments area
-	
-Click here to Reply, Reply to all or Forward
-7.87 GB (52%) of 15 GB used
-Manage
-Terms - Privacy
-Last account activity: 2 hours ago
-Details
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -505,8 +470,3 @@ void menus(ArvAVL *raiz, int op){
 			printf("    Digite um comando valido!\n");
 	}	
 }
-
-
-
-testefinal.c
-Displaying testefinal.c.

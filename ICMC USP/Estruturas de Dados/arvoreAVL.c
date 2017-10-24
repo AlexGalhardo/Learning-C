@@ -1,11 +1,3 @@
-
-Conversation opened. 1 unread message.
-
-Skip to content
-Using Gmail with screen readers
-Search
-
-
 #include <stdio.h>
 #include <stdlib.h>
 

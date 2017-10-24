@@ -40,3 +40,60 @@ Saída:
 0 1 2 3 4 5 6 7 8 9
 
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int encontrarK(int *a, int n){
+	int max = a[0];
+	int i;
+	for(i=1; i<n; i++){
+		if(max < a[i]){
+			max = a[i];
+		}
+	}
+	return max;
+}
+
+void countingSort(int *a, int n){
+	int k = encontrarK(a, n);
+	int b[n];
+	int c[k+1];
+	
+	int i, j;
+	
+	for(i=0; i<=k; i++){
+		c[i] = 0;
+	}
+	
+	for(j=0; j<n; j++){
+		c[a[j]] = c[a[j]] +1;
+	}
+	
+	for(i=1; i<= k; i++){
+		c[i] = c[i] + c[i-1];
+	}
+	
+	for(j=n-1; j>=0; j--){
+		b[c[a[j]]-1] = a[j];
+		c[a[j]] = c[a[j]]-1;
+	}
+	
+	for(i=0; i<n; i++){
+		printf("%d ", b[i]);
+	}
+}
+
+int main(){
+	
+	int i, qtd;
+	scanf("%d", &qtd);
+	int a[qtd];
+	for(i=0; i<qtd; i++){
+		scanf("%d", &a[i]);
+	}
+	
+	countingSort(a, qtd);
+	
+	return 0;
+}

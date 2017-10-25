@@ -1,3 +1,10 @@
+/*
+
+REFERÊNCIAS
+
+https://www.youtube.com/watch?v=SLauY6PpjW4
+
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

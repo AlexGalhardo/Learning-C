@@ -2,6 +2,8 @@
 
 REFERÊNCIA: https://pt.wikipedia.org/wiki/Bucket_sort
 
+https://www.youtube.com/watch?v=VuXbEb5ywrU
+
 Bucket sort
 Faça uma implementação do algoritmo de ordenação "bucket sort". O algoritmo deverá ler um número N que indica a quantidade de valores a serem ordenados. Em uma outra linha, o algoritmo deverá ler os N valores a serem ordenados, separados par a par por um único espaço. A saída do método deverá ser os valores ordenados ascendentemente e separados par a par por um único espaço. Imprima os números com 4 casos decimais.
 

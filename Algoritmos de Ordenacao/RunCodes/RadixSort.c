@@ -2,6 +2,8 @@
 
 REFERÊNCIA: https://pt.wikipedia.org/wiki/Radix_sort
 
+https://www.youtube.com/watch?v=xuU-DS_5Z4g
+
 Radix sort
 Faça uma implementação do algoritmo de ordenação "radix sort". O algoritmo deverá ler um número N que indica a quantidade de valores a serem ordenados. Em uma outra linha, o algoritmo deverá ler os N valores a serem ordenados, separados par a par por um único espaço. A saída do método deverá ser os valores ordenados ascendentemente e separados par a par por um único espaço.
 

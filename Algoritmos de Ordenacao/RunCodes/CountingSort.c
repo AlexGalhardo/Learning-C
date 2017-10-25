@@ -21,6 +21,8 @@ Agora será feito a alocação dos valores no vetor ordenado. A regra é a segui
 Passo 4
 Essa é mamão com açúcar. Basta passar o conteúdo do vetor final para o vetor original.
 
+https://www.youtube.com/watch?v=7zuGmKfUt7s
+
 */
 
 /*

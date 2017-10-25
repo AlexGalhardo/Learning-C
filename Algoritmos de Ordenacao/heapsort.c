@@ -1,3 +1,15 @@
+/*
+REFERÊNCIAS:
+
+https://www.youtube.com/watch?v=MtQL_ll5KhQ
+
+https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/heap.html
+
+https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/dicionario.html#floor
+
+https://docente.ifrn.edu.br/robinsonalves/disciplinas/estruturas-de-dados-2013/08Heap.pdf
+
+*/
 #include <stdio.h>
 
 void criaHeap(int *vetor, int i, int f){

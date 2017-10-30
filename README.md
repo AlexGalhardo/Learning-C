@@ -1,8 +1,7 @@
 ### Estudando "The God's Language"
 
  - <strong>Referências</strong>
-    - [Programação C Descomplicada](https://programacaodescomplicada.wordpress.com/)
-    - [Programação C Descomplicada YouTube](https://www.youtube.com/user/progdescomplicada)
+    - [Programação C Descomplicada](https://www.youtube.com/user/progdescomplicada)
     - [Cplusplus](http://www.cplusplus.com/)
     - [Cpp Reference](http://en.cppreference.com/w/)
     - [C Progressivo](http://www.cprogressivo.net/)
@@ -22,7 +21,7 @@
     
  - <strong>Makefile</strong>
     - [GNU Make](https://www.gnu.org/software/make/manual/make.html)
-    - [A tutoril by example](http://mrbook.org/blog/tutorials/make/)
+    - [A tutorial by example](http://mrbook.org/blog/tutorials/make/)
     - [Tutorials Point - Makefile](https://www.tutorialspoint.com/makefile/)
     
  - <strong>IDEs</strong>

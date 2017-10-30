@@ -28,6 +28,7 @@
     - [CodeLite](https://codelite.org/)
     - [CodeBlocks](http://www.codeblocks.org/)
     - [DevC++](https://sourceforge.net/projects/orwelldevcpp/)
+    - [U++](https://www.ultimatepp.org/index.html)
     - [Cloud9](https://c9.io/?redirect=0)
  
  - [Grupo Comp Lang C++](https://groups.google.com/forum/#!forum/comp.lang.c++)

@@ -20,9 +20,15 @@
     - [OpenGL - Prof. Márcio Sarroglia Pinho ](http://www.inf.pucrs.br/~pinho/CG/Aulas/OpenGL/OpenGL.html)
     - [Agostinho Brito](https://agostinhobritojr.github.io/tutoriais/cpp/)
     
+ - <strong>Makefile</strong>
+    - [GNU Make](https://www.gnu.org/software/make/manual/make.html)
+    - [A tutoril by example](http://mrbook.org/blog/tutorials/make/)
+    - [Tutorials Point - Makefile](https://www.tutorialspoint.com/makefile/)
+    
  - <strong>IDEs</strong>
     - [CodeLite](https://codelite.org/)
     - [CodeBlocks](http://www.codeblocks.org/)
+    - [DevC++](https://sourceforge.net/projects/orwelldevcpp/)
     - [Cloud9](https://c9.io/?redirect=0)
  
  - [Grupo Comp Lang C++](https://groups.google.com/forum/#!forum/comp.lang.c++)

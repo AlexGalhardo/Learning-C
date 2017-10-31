@@ -36,3 +36,6 @@
  
  - <strog>Provavelmente o slide que mais me influênciou até hoje.</strong>
     - [Deep C](https://www.slideshare.net/olvemaudal/deep-c/226-include_stdioh_struct_X_int)
+    
+ - <strong>Engenharia Reversa com U++ --> Recomendo muito kkk </strong>
+    ![bomb](https://user-images.githubusercontent.com/19540357/32204730-20dc5ade-bdd2-11e7-82d9-3caa0b11c243.png)

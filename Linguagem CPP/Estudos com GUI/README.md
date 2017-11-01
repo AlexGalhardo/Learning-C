@@ -1,2 +1,0 @@
- - <strong>Referências</strong>
-   - [SFML Github](https://github.com/SFML/SFML)

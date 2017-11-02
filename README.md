@@ -18,6 +18,9 @@
     - [Introdução à OpenGL - Professora Isabel Harb Manssour](http://www.inf.pucrs.br/~manssour/OpenGL/Tutorial.html)
     - [OpenGL - Prof. Márcio Sarroglia Pinho ](http://www.inf.pucrs.br/~pinho/CG/Aulas/OpenGL/OpenGL.html)
     - [Agostinho Brito](https://agostinhobritojr.github.io/tutoriais/cpp/)
+    - [LearnCPP](http://www.learncpp.com)
+    - [CodesDope](https://www.codesdope.com/cpp-introduction/)
+    - [JavaTpoint](https://www.javatpoint.com/cpp-tutorial)
     
  - <strong>Makefile</strong>
     - [GNU Make](https://www.gnu.org/software/make/manual/make.html)

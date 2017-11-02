@@ -1,5 +1,8 @@
 ### Estudando "The God's Language"
 
+![gif](https://user-images.githubusercontent.com/19540357/32306593-8e5cae46-bf63-11e7-9056-146c46036111.png)
+
+
  - <strong>Referências</strong>
     - [Programação C Descomplicada](https://www.youtube.com/user/progdescomplicada)
     - [Cplusplus](http://www.cplusplus.com/)

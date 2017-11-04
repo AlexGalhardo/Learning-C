@@ -15,6 +15,7 @@
     - [Docs OpenGL](http://docs.gl/)
     
  - <strong>C++</strong>
+    - [RoadMap C++](http://www.pontov.com.br/site/index.php/cpp/46-conceitos-basicos/88-roadmap-c)
     - [Curso C++ UFRJ](http://orion.lcg.ufrj.br/C++/curso/)
     - [C++ Programming The New Boston](https://www.youtube.com/watch?v=tvC1WCdV1XU&list=PLAE85DE8440AA6B83&index=1)
     - [Curso C++ Intermediário FREE - Udemy](https://www.udemy.com/cplusplus-intermediario/)

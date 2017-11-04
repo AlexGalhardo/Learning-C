@@ -1,7 +1,4 @@
-### Estudando "The God's Language"
-
-![gif](https://user-images.githubusercontent.com/19540357/32306593-8e5cae46-bf63-11e7-9056-146c46036111.png)
-
+### Estudando "The God's Language
 
  - <strong>Referências</strong>
     - [Programação C Descomplicada](https://www.youtube.com/user/progdescomplicada)
@@ -23,8 +20,6 @@
     - [OpenGL - Prof. Márcio Sarroglia Pinho ](http://www.inf.pucrs.br/~pinho/CG/Aulas/OpenGL/OpenGL.html)
     - [Agostinho Brito](https://agostinhobritojr.github.io/tutoriais/cpp/)
     - [LearnCPP](http://www.learncpp.com)
-    - [CodesDope](https://www.codesdope.com/cpp-introduction/)
-    - [JavaTpoint](https://www.javatpoint.com/cpp-tutorial)
     
  - <strong>Makefile</strong>
     - [GNU Make](https://www.gnu.org/software/make/manual/make.html)
@@ -44,5 +39,3 @@
  - <strog>Provavelmente o slide que mais me influênciou até hoje.</strong>
     - [Deep C](https://www.slideshare.net/olvemaudal/deep-c/226-include_stdioh_struct_X_int)
     
- - <strong>Engenharia Reversa com U++ --> Recomendo muito kkk </strong>
-    ![bomb](https://user-images.githubusercontent.com/19540357/32204730-20dc5ade-bdd2-11e7-82d9-3caa0b11c243.png)

@@ -10,6 +10,7 @@
     - [ScriptBrasil Códigos](https://www.scriptbrasil.com.br/codigos/)
     - [Agostinho Brito Jr Cursos](https://agostinhobritojr.github.io/cursos/)
     - [Docs OpenGL](http://docs.gl/)
+    - [Projeto de Algoritmos com implementações em C](http://www2.dcc.ufmg.br/livros/algoritmos/implementacoes-05.php)
     
  - <strong>C++</strong>
     - [RoadMap C++](http://www.pontov.com.br/site/index.php/cpp/46-conceitos-basicos/88-roadmap-c)

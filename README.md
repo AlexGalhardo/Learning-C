@@ -1,6 +1,6 @@
-### Estudando "The God's Language
+### Studying "The God's Language"
 
- - <strong>Referências</strong>
+ - <strong>References</strong>
     - [Programação C Descomplicada](https://www.youtube.com/user/progdescomplicada)
     - [Cplusplus](http://www.cplusplus.com/)
     - [Cpp Reference](http://en.cppreference.com/w/)
